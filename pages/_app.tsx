@@ -7,7 +7,7 @@ import { ConnectKitProvider, getDefaultClient } from "connectkit";
 const alchemyId = process.env.ALCHEMY_GOERLI_API_KEY_URL;
 
 // Choose which chains you'd like to show
-const chains = [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum, chain.goerli];
+const chains = [chain.goerli, chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum, chain.polygonMumbai];
 
 const client = createClient(
   getDefaultClient({
